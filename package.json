@@ -1,0 +1,23 @@
+{
+  "name": "mongo-mongoose-hands-on",
+  "version": "0.1.0",
+  "description": "Hands-on on using MongoDB & Mongoose w/ NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgknight/mongo-mongoose-hands-on.git"
+  },
+  "author": "Thanapat Bhunnachet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tgknight/mongo-mongoose-hands-on/issues"
+  },
+  "homepage": "https://github.com/tgknight/mongo-mongoose-hands-on#readme",
+  "dependencies": {
+    "mongodb": "^2.2.26",
+    "mongoose": "^4.9.7"
+  }
+}
