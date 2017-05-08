@@ -4,6 +4,7 @@
   "description": "Hands-on on using MongoDB & Mongoose w/ NodeJS",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon",
     "test": "npm test"
   },
   "repository": {
@@ -17,7 +18,14 @@
   },
   "homepage": "https://github.com/tgknight/mongo-mongoose-hands-on#readme",
   "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
     "mongodb": "^2.2.26",
-    "mongoose": "^4.9.7"
+    "mongoose": "^4.9.7",
+    "morgan": "^1.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
